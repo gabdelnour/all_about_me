@@ -7,16 +7,29 @@
     <title>Contact Me!</title>
   </head>
   <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" class="current-page">Contact Me!</a></li>
+            </ul>
+        </nav>
+    <main>
         <h1>Use this form to Contact Me!</h1>
         <form
             action="https://formspree.io/gurabdelnour@gmail.com"
             method="POST"
         >
-        <div>
+        <div class="form-input">
         <label for="your-name">Your Name</label>
-        <input id="your-name" type="text" name="your-name">
+        <input 
+         id="your-name"
+         type="text"
+         name="your-name"
+         autocomplete="off"
+         >
         </div>
-        <div>      <label for="your-message">Your Message</label>
+        <div class="form-input">      
+            <label for="your-message">Your Message</label>
             <textarea
             id="your-message"
             name="your-message"
@@ -27,5 +40,6 @@
         <button type="submit">Send</button>
         <input type="reset">
         </form>
+    </main>
   </body>
 </html>
