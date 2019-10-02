@@ -1,0 +1,23 @@
+body{
+    margin: 0
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    margin-top: 65px;
+  }
+
+ul {
+    padding: 0;
+}

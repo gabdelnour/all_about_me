@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me!</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="contact.css">
+  </head>
   <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact Me!</a></li>
-                <li><a href="all_about_you.html">All about You</a></li>
-            </ul>
-        </nav>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html" class="current-page">Contact Me!</a></li>
+        <li><a href="all_about_you.html">All about You</a></li>
+      </ul>
+    </nav>
     <main>
-        <h1>Use this form to Contact Me!</h1>
-        <form
-            action="https://formspree.io/gurabdelnour@gmail.com"
-            method="POST"
-        >
+      <h1>Use this form to Contact Me!</h1>
+      <form
+        action="https://formspree.io/andyweiss@wyncode.co"
+        method="POST"
+      >
         <div class="form-input">
-        <label for="your-name">Your Name</label>
-        <input 
-         id="your-name"
-         type="text"
-         name="your-name"
-         autocomplete="off"
-         >
+          <label for="your-name">Your Name</label>
+          <input
+            id="your-name"
+            type="text"
+            name="your-name"
+            autocomplete="off"
+          >
         </div>
-        <div class="form-input">      
-            <label for="your-message">Your Message</label>
-            <textarea
+        <div class="form-input">
+          <label for="your-message">Your Message</label>
+          <textarea
             id="your-message"
             name="your-message"
             cols="100"
             rows="10"
-            ></textarea>
+          ></textarea>
         </div>
         <button type="submit">Send</button>
         <input type="reset">
-        </form>
+      </form>
     </main>
   </body>
 </html>
